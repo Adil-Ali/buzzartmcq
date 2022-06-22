@@ -1,0 +1,54 @@
+body{
+    background-image: url("images/image.webp");
+    background-attachment: scroll;
+    display: flex;
+    justify-content: space-between ;
+
+}
+
+li{
+    list-style: none;
+}
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    transition: 1;
+}
+.active ,.accordion1:hover {
+    background-color: #ccc;
+}
+.panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    
+  }
+
+.leftside{
+    position:relative;
+    
+    padding: 10px;
+}
+
+.buttons{
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    
+}
+.leftside::first-line{
+    font-size: xxx-large;
+}
+
+
